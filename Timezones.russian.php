@@ -52,12 +52,12 @@ global $tztxt;
 // Descriptions for entire time zones to use instead of a list of locations
 $tztxt['UTC'] = 'Всемирное координированное время';
 $tztxt['America/Anchorage'] = 'Аляска';
-$tztxt['America/Los_Angeles'] = 'Тихоокеанский часовой пояс (США, Канада)';
-$tztxt['America/Denver'] = 'Горное время (США, Канада)';
+$tztxt['America/Los_Angeles'] = 'Тихоокеанский часовой пояс (США и Канада)';
+$tztxt['America/Denver'] = 'Горное время (США и Канада)';
 $tztxt['America/Phoenix'] = 'Горное время (без летнего времени)';
-$tztxt['America/Chicago'] = 'Центральное время (США, Канада)';
+$tztxt['America/Chicago'] = 'Центральное время (США и Канада)';
 $tztxt['America/Belize'] = 'Центральное время (без летнего времени)';
-$tztxt['America/New_York'] = 'Восточное время (США, Канада)';
+$tztxt['America/New_York'] = 'Восточное время (США и Канада)';
 $tztxt['America/Jamaica'] = 'Восточное время (без летнего времени)';
 $tztxt['America/Halifax'] = 'Атлантическое время (Канада)';
 $tztxt['America/Anguilla'] = 'Атлантическое время (без летнего времени)';
@@ -70,32 +70,19 @@ $tztxt['Europe/Helsinki'] = 'Восточноевропейское время';
 $tztxt['Asia/Riyadh'] = 'Арабское время';
 
 // Use a list of locations as the description, but force the named one to always be first
-$tztxt['Europe/London'] = '';
-$tztxt['Europe/Moscow'] = '';
+$tztxt['Europe/Kaliningrad'] = 'Калининград';
+$tztxt['Europe/Moscow'] = 'Москва, Санкт-Петербург, Волгоград';
+$tztxt['Asia/Baku'] = 'Астрахань, Ульяновск, Ижевск, Самара, Саратов';
+$tztxt['Asia/Yekaterinburg'] = 'Екатеринбург';
+$tztxt['Asia/Omsk'] = 'Омск';
+$tztxt['Asia/Krasnoyarsk'] = 'Красноярск, Новосибирск, Томск';
+$tztxt['Asia/Irkutsk'] = 'Иркутск';
+$tztxt['Asia/Chita'] = 'Чита, Якутск';
+$tztxt['Asia/Vladivostok'] = 'Владивосток';
+$tztxt['Asia/Magadan'] = 'Магадан, Сахалин';
+$tztxt['Asia/Kamchatka'] = 'Петропавловск-Камчатский';
 
 // Custom descriptions for individual locations
-$txt['America/Adak'] = 'Алеутские острова';
-$txt['Pacific/Marquesas'] = 'Маркизские острова';
-$txt['Pacific/Gambier'] = 'Острова Гамбьер';
-$txt['Pacific/Pitcairn'] = 'Острова Питкэрн';
-$txt['America/St_Johns'] = 'Ньюфаундленд';
-$txt['Pacific/Easter'] = 'Остров Пасхи';
-$txt['Atlantic/Stanley'] = 'Фолклендские острова';
-$txt['America/Miquelon'] = 'Сен-Пьер и Микелон';
-$txt['America/Godthab'] = 'Гренландия';
-$txt['America/Noronha'] = 'Фернандо де Норонья';
 $txt['Asia/Kolkata'] = 'Индия';
-$txt['Asia/Colombo'] = 'Шри-Ланка';
-$txt['Asia/Dhaka'] = 'Бангладеш';
-$txt['Antarctica/DumontDUrville'] = 'Станция Дюмон-Данвиль';
-$txt['Antarctica/Troll'] = 'Станция Тролл';
-$txt['Antarctica/Vostok'] = 'Станция Восток';
-$txt['Australia/Lord_Howe'] = 'Остров Лорд-Хау';
-$txt['Pacific/Guadalcanal'] = 'Соломоновы острова';
-$txt['Pacific/Norfolk'] = 'Остров Норфолк';
-$txt['Pacific/Noumea'] = 'Новая Каледония';
-$txt['Antarctica/McMurdo'] = 'Станция Мак-Мердо';
-$txt['Pacific/Kwajalein'] = 'Маршалловы острова';
-$txt['Pacific/Chatham'] = 'Острова Чатем';
 
 ?>

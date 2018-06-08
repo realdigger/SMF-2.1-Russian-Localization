@@ -44,7 +44,7 @@ $txt['whoall_notifyboard'] = 'Изменяет настройки уведомл
 $txt['whoall_quickmod'] = 'Модерирует раздел.';
 $txt['whoall_recent'] = 'Просматривает список <a href="' . $scripturl . '?action=recent">последних сообщений</a>.';
 $txt['whoall_reminder'] = 'Восстанавливает пароль.';
-$txt['whoall_reporttm'] = 'Отправляет отчет Модератору.';
+$txt['whoall_reporttm'] = 'Отправляет отчёт модератору.';
 $txt['whoall_restoretopic'] = 'Восстанавливает тему.';
 $txt['whoall_signup'] = 'Регистрируется на форуме.';
 $txt['whoall_signup2'] = 'Регистрируется на форуме.';
