@@ -88,7 +88,7 @@ $txt['current_theme'] = 'Текущая тема оформления';
 $txt['change'] = '(изменить)';
 $txt['theme_preferences'] = 'Настройки темы оформления';
 $txt['theme_forum_default'] = 'Тема оформления по умолчанию';
-$txt['theme_forum_default_desc'] = 'Данная тема оформления используется на форуме по умолчанию.';
+$txt['theme_forum_default_desc'] = 'Данная тема оформления используется по умолчанию.';
 
 $txt['profileConfirm'] = 'Хотите удалить данного пользователя?';
 
