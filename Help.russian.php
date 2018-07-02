@@ -94,7 +94,7 @@ $helptxt['time_format'] = '<strong>Формат времени</strong><br>
 	Вы обладаете большими возможностями по изменению отображаемого формата времени.
 	Преобразования производятся с помощью функции <a href="https://secure.php.net/manual/ru/function.strftime.php" target="_blank">strftime</a> и описываются ниже.<br>
 	<br>
-	Следующие буквы определяют следующий формат: <br>
+	Доступные переменные: <br>
 	<span class="smalltext">
 	&nbsp;&nbsp;%a &mdash; краткое название дня недели<br>
 	&nbsp;&nbsp;%A &mdash; полное названия дня недели<br>
