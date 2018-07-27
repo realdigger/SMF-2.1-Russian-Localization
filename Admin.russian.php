@@ -199,7 +199,7 @@ $txt['ban_log_member'] = 'Пользователь';
 $txt['ban_log_date'] = 'Дата';
 $txt['ban_log_remove_all'] = 'Удалить все';
 $txt['ban_log_remove_all_confirm'] = 'Хотите удалить все логи бана?';
-$txt['ban_log_remove_selected'] = 'Удалить выделенное';
+$txt['ban_log_remove_selected'] = 'Удалить выделенные';
 $txt['ban_log_remove_selected_confirm'] = 'Хотите удалить выделенные логи бана?';
 $txt['ban_no_triggers'] = 'Нет параметров бана.';
 

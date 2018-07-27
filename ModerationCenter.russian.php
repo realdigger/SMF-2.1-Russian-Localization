@@ -78,7 +78,7 @@ $txt['mc_groupr_reject_w_reason'] = 'Отклонить запрос, указа
 $txt['mc_groupr_warning'] = 'Хотите сделать это?';
 
 $txt['mc_unapproved_attachments_none_found'] = 'Неодобренных вложений не найдено!';
-$txt['mc_unapproved_attachments_desc'] = 'Здесь вы можете одобрить или удалить вложения ожидающие модерации.';
+$txt['mc_unapproved_attachments_desc'] = 'Здесь вы можете одобрить или удалить вложения, ожидающие модерации.';
 $txt['mc_unapproved_replies_none_found'] = 'Неодобренных сообщений не найдено!';
 $txt['mc_unapproved_topics_none_found'] = 'Неодобренных тем не найдено!';
 $txt['mc_unapproved_posts_desc'] = 'Здесь можно одобрить или удалить любые сообщения, ожидающие модерации.';
@@ -89,18 +89,18 @@ $txt['mc_unapproved_sure'] = 'Хотите сделать это?';
 $txt['mc_unapproved_attach_name'] = 'Название вложения';
 $txt['mc_unapproved_attach_size'] = 'Размер файла';
 $txt['mc_unapproved_attach_poster'] = 'Автор';
-$txt['mc_viewmodreport'] = 'Отчёт модератору %1$s от %2$s';
-$txt['mc_modreport_summary'] = 'Есть %1$d жалоб, связанных с этим сообщением. Последняя была %2$s.';
+$txt['mc_viewmodreport'] = 'Жалоба на «%1$s» от %2$s';
+$txt['mc_modreport_summary'] = 'Жалоб, связанных с этим сообщением: %1$d. Последняя была: %2$s.';
 $txt['mc_modreport_whoreported_title'] = 'Пользователи, приславшие отчёт о данном сообщении';
 $txt['mc_modreport_whoreported_data'] = 'Жалоба от %1$s на %2$s. Причина:';
-$txt['mc_modreport_modactions'] = 'Действие выполнено другими модераторами';
+$txt['mc_modreport_modactions'] = 'Действия других модераторов';
 $txt['mc_modreport_mod_comments'] = 'Комментарий модератора';
 $txt['mc_modreport_no_mod_comment'] = 'Комментарии модератора отсутствуют';
 $txt['mc_modreport_add_mod_comment'] = 'Добавить комментарий';
 $txt['mc_modreport_edit_mod_comment'] = 'Отредактировать комментарий';
 
 $txt['mc_viewmemberreport'] = 'Жалоба на профиль %1$s';
-$txt['mc_memberreport_summary'] = 'Было %1$d жалоб на этого пользователя. Последняя жалоба была %2$s.';
+$txt['mc_memberreport_summary'] = 'Жалоб на этого пользователя: %1$d. Последняя жалоба: %2$s.';
 $txt['mc_memberreport_whoreported_title'] = 'Пользователи, подавшие жалобы на этого.';
 
 $txt['show_notice'] = 'Текст уведомления';
