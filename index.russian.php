@@ -11,7 +11,7 @@ $txt['native_name'] = 'Russian';
 //   - https://secure.php.net/manual/ru/function.pspell-new
 //   - https://secure.php.net/manual/ru/function.setlocale
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!!  Please read this!
-$txt['lang_locale'] = 'ru_RU.utf8';
+$txt['lang_locale'] = 'ru_RU.UTF8';
 $txt['lang_dictionary'] = 'ru';
 $txt['lang_spelling'] = '';
 //https://developers.google.com/recaptcha/docs/language
@@ -331,7 +331,7 @@ $txt['total_members'] = 'Всего пользователей';
 $txt['total_posts'] = 'Всего сообщений';
 $txt['total_topics'] = 'Всего тем';
 
-$txt['mins_logged_in'] = 'Длина сессии (в минутах)';
+$txt['time_logged_in'] = 'Длина сессии (в минутах)';
 
 $txt['preview'] = 'Предварительный просмотр';
 $txt['always_logged_in'] = 'Запомнить';
@@ -410,6 +410,7 @@ $txt['poll_lock'] = 'Заблокировать голосование';
 $txt['poll_unlock'] = 'Разблокировать голосование';
 $txt['poll_edit'] = 'Редактировать голосование';
 $txt['poll'] = 'Голосование';
+$txt['one_hour'] = '1 час';
 $txt['one_day'] = '1 день';
 $txt['one_week'] = '1 неделя';
 $txt['two_weeks'] = '2 недели';
@@ -417,7 +418,6 @@ $txt['one_month'] = '1 месяц';
 $txt['two_months'] = '2 месяца';
 $txt['forever'] = 'Навсегда';
 $txt['quick_login_dec'] = '';
-$txt['one_hour'] = '1 час';
 $txt['moved'] = 'Перенесено';
 $txt['move_why'] = 'Кратко опишите причину, по которой эти темы объединены.';
 $txt['board'] = 'Раздел';
@@ -549,7 +549,7 @@ $txt['movetopic_redirect'] = 'Перенаправлять в перемещен
 $txt['post_redirection'] = 'Создать тему перенаправления';
 $txt['redirect_topic_expires'] = 'Автоматически удалить тему перенаправления';
 $txt['mergetopic_redirect'] = 'Перенаправление в объединенную тему';
-$txt['merge_topic_unapproved_js'] = 'Внимание! Эта тема ещё не была одобрена.\\n\\nНе рекомендуется создавать тему перенаправления, если только вы не собираетесь одобрить сообщение сразу после объединения.';
+$txt['merge_topic_unapproved_js'] = 'Внимание! Тема ещё не была одобрена.\\n\\nНе рекомендуется создавать тему перенаправления, если только вы не собираетесь одобрить сообщение сразу после объединения.';
 
 $txt['theme_template_error'] = 'Невозможно загрузить \'%1$s\' шаблон.';
 $txt['theme_language_error'] = 'Невозможно загрузить \'%1$s\' языковой файл.';
@@ -558,7 +558,7 @@ $txt['sub_boards'] = 'Подразделы';
 $txt['restricted_board'] = 'Раздел с ограниченным доступом';
 
 $txt['smtp_no_connect'] = 'Ошибка подключения к SMTP серверу';
-$txt['smtp_port_ssl'] = 'Неверно указан SMTP порт; Для SSL серверов он должен быть 465.';
+$txt['smtp_port_ssl'] = 'Неверно указан SMTP порт; Для SSL серверов он должен быть 465. Перед именем хоста иногда требуется указать префикс ssl://.';
 $txt['smtp_bad_response'] = 'Не могу получить ответ с почтового сервера';
 $txt['smtp_error'] = 'Проблема с отправкой почты. Ошибка: ';
 $txt['mail_send_unable'] = 'Невозможно отправить почту по указанному адресу \'%1$s\'';
@@ -586,6 +586,7 @@ $txt['etc'] = 'и&nbsp;т.&nbsp;д.';
 $txt['hostname'] = 'Хост';
 $txt['you_are_post_banned'] = 'Извините, %1$s, но вы забанены и поэтому не можете использовать систему личных сообщений.';
 $txt['ban_reason'] = 'Причина';
+$txt['select_item_check'] = 'Пожалуйста, выберите хотя бы один пункт в списке';
 
 $txt['tables_optimized'] = 'Таблицы базы данных оптимизированы';
 
@@ -616,10 +617,10 @@ $txt['spell_check'] = 'Проверка орфографии';
 
 $txt['quick_reply'] = 'Быстрый ответ';
 $txt['quick_reply_desc'] = 'В <em>быстром ответе</em> можно использовать ББ-теги и смайлы.';
-$txt['quick_reply_warning'] = 'Внимание: эта тема заблокирована! Ответить в ней может только модератор или администратор форума.';
+$txt['quick_reply_warning'] = 'Внимание: тема заблокирована! Ответить в ней может только модератор или администратор форума.';
 $txt['quick_reply_verification'] = 'После отправки сообщения произойдёт перенаправление на страницу полного ответа, чтобы подтвердить его %1$s.';
 $txt['quick_reply_verification_guests'] = '(требуется для всех гостей)';
-$txt['quick_reply_verification_posts'] = '(требуется для всех пользователей у которых менее %1$d сообщений)';
+$txt['quick_reply_verification_posts'] = '(требуется для всех пользователей, у которых менее %1$d сообщений)';
 $txt['wait_for_approval'] = 'Обратите внимание: данное сообщение не будет отображаться, пока модератор не одобрит его.';
 
 $txt['notification_enable_board'] = 'Хотите получать уведомления при создании новых тем в данном разделе форума?';
@@ -652,6 +653,7 @@ $txt['report_profile'] = 'Пожаловаться на профиль %1$s';
 
 $txt['unread_topics_visit'] = 'Непрочитанные темы с последнего посещения';
 $txt['unread_topics_visit_none'] = 'Нет непрочитанных тем с момента вашего последнего посещения. <a href="' . $scripturl . '?action=unread;all">Просмотреть все непрочитанные темы</a>.';
+$txt['updated_topics_visit_none'] = 'Нет обновленных тем с момента вашего последнего посещения. <a href="' . $scripturl . '?action=unread;all">Просмотреть все непрочитанные темы</a>.';
 $txt['unread_topics_all'] = 'Все непрочитанные темы';
 $txt['unread_replies'] = 'Темы с непрочитанными ответами';
 
@@ -698,7 +700,7 @@ $txt['merge_check'] = 'Объединить?';
 $txt['merge_no_poll'] = 'Нет голосования';
 $txt['merge_why'] = 'Кратко опишите причину, по которой эти темы объединены.';
 $txt['merged_subject'] = '[ОБЪЕДИНЕНА] %1$s';
-$txt['mergetopic_default'] = 'Эта тема была объединена в ' . $txt['movetopic_auto_topic'] . '.';
+$txt['mergetopic_default'] = 'Тема была объединена в ' . $txt['movetopic_auto_topic'] . '.';
 
 $txt['response_prefix'] = 'Re: ';
 $txt['current_icon'] = 'Иконка';

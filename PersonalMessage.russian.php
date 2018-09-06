@@ -9,9 +9,9 @@ $txt['pm_sent_short'] = 'Отправленные';
 $txt['pm_new_short'] = 'Новое';
 $txt['pm_drafts_short'] = 'Черновики';
 $txt['pm_settings_short'] = 'Настройки';
-$txt['pm_no_unread'] = 'Нет непрочитанных.';
-$txt['pm_was_sent_to_you'] = 'Пришло сообщение.';
-$txt['pm_you_were_replied_to'] = 'Ваши сообщения, на которые были ответы.';
+$txt['pm_no_unread'] = 'Нет непрочитанных';
+$txt['pm_was_sent_to_you'] = 'Пришло сообщение';
+$txt['pm_you_were_replied_to'] = 'Ваши сообщения, на которые были ответы';
 
 $txt['pm_inbox'] = 'Личные сообщения';
 $txt['send_message'] = 'Отправить';

@@ -549,8 +549,6 @@ $txt['managedrafts_settings_description'] = 'Здесь можно устано�
 $txt['manage_drafts'] = 'Черновики';
 
 $txt['removeNestedQuotes'] = 'Удалять вложенные цитаты при отправке сообщения';
-$txt['enableEmbeddedFlash'] = 'Разрешить Flash в сообщениях';
-$txt['enableEmbeddedFlash_warning'] = 'Может возникнуть угроза безопасности!';
 $txt['enableSpellChecking'] = 'Разрешить проверку орфографии';
 $txt['disable_wysiwyg'] = 'Запретить редактор WYSIWYG';
 $txt['max_messageLength'] = 'Максимальный размер сообщения';
@@ -633,6 +631,7 @@ $txt['admin_news_cannot_pm_emails_js'] = 'Вы не можете отправи�
 
 $txt['mailqueue_browse'] = 'Обзор очереди';
 $txt['mailqueue_settings'] = 'Настройки почты';
+$txt['mailqueue_test'] = 'Протестировать';
 
 $txt['admin_search'] = 'Быстрый поиск';
 $txt['admin_search_type_internal'] = 'Задача/Настройка';

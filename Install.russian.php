@@ -41,12 +41,11 @@ $txt['default_category_name'] = 'Главная категория';
 $txt['default_time_format'] = '%d %B %Y, %H:%M';
 $txt['default_news'] = 'SMF форум только что установлен!';
 $txt['default_reserved_names'] = 'Admin\\nWebmaster\\nGuest\\nroot';
-$txt['default_smileyset_name'] = 'Набор от Fugue';
+$txt['default_fugue_smileyset_name'] = 'Набор от Fugue';
 $txt['default_alienine_smileyset_name'] = 'Набор от Alienine';
-$txt['default_theme_name'] = 'SMF Default Theme - Curve2';
-$txt['default_core_theme_name'] = 'Core Theme';
-$txt['default_classic_theme_name'] = 'Classic YaBB SE Theme';
-$txt['default_babylon_theme_name'] = 'Babylon Theme';
+$txt['default_aaron_smileyset_name'] = 'Набор от Aaron';
+$txt['default_akyhne_smileyset_name'] = 'Набор от Akyhne';
+$txt['default_theme_name'] = 'Тема SMF по умолчанию - Curve2';
 
 $txt['default_administrator_group'] = 'Администратор';
 $txt['default_global_moderator_group'] = 'Глобальный модератор';
@@ -129,8 +128,6 @@ $txt['db_settings_database_info'] = 'Введите название базы д
 $txt['db_settings_database_info_note'] = 'Если указанная база данных не существует, программа установки попробует создать её.';
 $txt['db_settings_port'] = 'Порт БД';
 $txt['db_settings_port_info'] = 'Оставьте пустым, чтобы использовать стандартный';
-$txt['db_settings_database_file'] = 'Название файла базы данных';
-$txt['db_settings_database_file_info'] = 'Название файла, в котором будут храниться данные SMF. Мы рекомендуем использовать случайно сгенерированное название и не использовать общедоступную директорию на вашем веб-сервере.';
 $txt['db_settings_prefix'] = 'Префикс таблиц базы данных';
 $txt['db_settings_prefix_info'] = 'Префикс для каждой таблицы в базе данных. <strong>Не устанавливайте два форума с одним и тем же префиксом!</strong><br>Разные префиксы позволяют устанавливать несколько форумов в одну базу данных.';
 $txt['db_populate'] = 'База данных заполнена';
@@ -211,7 +208,6 @@ $txt['error_db_prefix_numeric'] = 'Выбранный тип базы данны
 $txt['error_invalid_characters_username'] = 'Неверный символ в имени пользователя.';
 $txt['error_username_too_long'] = 'Имя пользователя должно быть не больше 25 символов.';
 $txt['error_username_left_empty'] = 'Не введено имя пользователя.';
-$txt['error_db_filename_exists'] = 'База данных, которую вы пытаетесь создать, уже существует. Удалите существующий файл базы данных или введите другое имя.';
 $txt['error_db_prefix_reserved'] = 'Указанный префикс является зарезервированным. Введите другой.';
 $txt['error_utf8_support'] = 'База данных, которую вы пытаетесь использовать, не использует кодировку UTF8';
 
@@ -285,7 +281,6 @@ $txt['upgrade_empty_errlog'] = 'Очистить лог ошибок перед 
 $txt['upgrade_delete_karma'] = 'Удалить все настройки кармы и информацию из БД';
 $txt['upgrade_stats_collection'] = 'Разрешить Simple Machines собирать ежемесячную статистику.';
 $txt['upgrade_stats_info'] = 'При включении данной опции Simple Machines будет посещать ваш сайт раз в месяц для сбора обычной статистики. Это поможет нам принять решение по оптимизации программного обеспечения. Для получения подробной информации посетите <a href="%1$s" target="_blank" rel="noopener">информационную страницу</a>.';
-
 $txt['upgrade_db_changes'] = 'Выполнение изменений в базе данных';
 $txt['upgrade_db_patient'] = 'Будьте терпеливы - это может занять некоторое время на больших форумах. Шкала прогресса покаызвает время, прошедшее с момента начала выполнения скрипта!';
 $txt['upgrade_db_complete'] = '1 обновление базы данных завершено! Нажмите «Продолжить» для возобновления.';
@@ -318,7 +313,6 @@ $txt['upgrade_done3'] = 'Надеемся, вам понравится!';
 
 $txt['upgrade_delete_now'] = 'Удалить файл update.php и вспомогательные файлы';
 $txt['upgrade_delete_server'] = '(работает не на всех серверах).';
-$txt['upgrade_completed_time'] = 'Обновление завершено в';
 $txt['upgrade_problems'] = 'Если у вас возникли проблемы с этим обновлением или возникли проблемы с использованием SMF, пожалуйста, не стесняйтесь <a href="%1$s">обратиться за помощью</a>.';
 $txt['upgrade_luck'] = 'Удачи,';
 
@@ -333,6 +327,37 @@ $txt['upgrade_ready_proceed'] = 'Благодарим вас за выбор в 
 $txt['upgrade_error_script_js'] = 'Программа обновления не может найти файл script.js, либо он устарел. Убедитесь, что настройки путей для вашей темы оформления указаны правильно. Используйте утилиту <a href="https://download.simplemachines.org/index.php?thanks;filename=repair_settings.php" target="_blank" rel="noopener">repair_settings</a> для проверки настроек.';
 $txt['upgrade_warning_lots_data'] = 'Программа обновления обнаружила, что ваш форум содержит много данных, требующих обновления. Этот процесс может отнять довольно много времени, в зависимости от вашего сервера и размера форума, и для очень больших форумов (~300,000 сообщений) может занять несколько часов.';
 $txt['upgrade_warning_out_of_date'] = 'Программа обновления устарела! Последняя версия SMF: <em id="smfVersion" style="white-space: nowrap;">??</em>, а ваша программа обновления для <em id="yourVersion" style="white-space: nowrap;">%1$s</em>.<br><br>Рекомендуется посетить сайт <a href="%2$s">Simple Machines</a>, чтобы удостовериться, что вы обновляетесь на последнюю версию.';
+
+$txt['upgrade_boarddir_settings'] = 'Похоже, путь к директории форума <em>может</em> быть неправильным. Сейчас путь к директории форума задан так: &quot; %1$s &quot; но, возможно, должен быть изменен на &quot; %2$s &quot;. Settings.php сейчас содержит следующие пути:';
+$txt['upgrade_boarddir'] = 'Директория форума:';
+$txt['upgrade_sourcedir'] = 'Директория Source:';
+$txt['upgrade_cachedir'] = 'Директория кэша:';
+$txt['upgrade_incorrect_settings'] = 'Если эти данные кажутся неправильными, откройте файл Settings.php и исправьте пути вручную. Если настройки неверны из-за перемещения форума на новое место, пожалуйста, скачайте и выполните скрипт <a href="https://download.simplemachines.org/?tools">Repair Settings</a>, а затем продолжите обновление.';
+
+$txt['upgrade_fulltext_error'] = 'Полнотекстовый индекс сброшен для облегчения преобразования. Вам нужно будет пересоздать его.';
+$txt['upgrade_writable_files'] = 'Для продолжения обновления следующие файлы должны быть доступны для записи. Пожалуйста, убедитесь, что в Windows установлены соответствующие разрешения:';
+$txt['upgrade_time_user'] = '&quot; %1$s &quot; выполняется сценарий обновления.';
+
+// We represent the time here in backwards variables, as it makes the code easier.
+$txt['upgrade_time_ago_hms'] = 'Программа установки запущена %3$d ч., %2$d мин и %1$d сек. назад.';
+$txt['upgrade_time_ago_ms'] = 'Программа установки запущена %2$d мин. и %1$d сек. назад.';
+$txt['upgrade_time_ago_s'] = 'Программа установки запущена %1$d сек. назад.';
+$txt['upgrade_time_updated_hms'] = 'Программа установки была обновлена %3$d ч., %2$d мин. и %1$d сек. назад.';
+$txt['upgrade_time_updated_hm'] = 'Программа установки была обновлена %2$d мин. и %1$d сек. назад.';
+$txt['upgrade_time_updated_s'] = 'Программа установки была обновлена %1$d сек. назад.';
+$txt['upgrade_completed_time_hms'] = 'Обновление завершено за %3$d ч., %2$s мин. и %1$s сек';
+$txt['upgrade_completed_time_ms'] = 'Обновление завершено за %2$s мин. и %1$s сек';
+$txt['upgrade_completed_time_s'] = 'Обновление завершено за %1$s сек';
+$txt['upgrade_success_time_db'] = 'Успешно! Обновление базы данных завершено за %3$d ч., %2$d мин. и %1$d сек';
+
+$txt['upgrade_unsuccessful'] = 'Неудачно!';
+$txt['upgrade_thisquery'] = 'Этот запрос:';
+$txt['upgrade_causerror'] = 'Вызвал ошибку:';
+$txt['upgrade_completedtables_outof'] = 'Завершено <span id="tab_done">%1$d</span> из %2$d таблиц.';
+$txt['upgrade_success'] = 'Успешно!';
+$txt['upgrade_loop'] = 'Программа установки, похоже, зациклилась — шаг: ';
+$txt['upgrade_repondtime'] = 'Сервер не ответил за %1$d сек. Возможно, стоит подождать немного дольше, прежде чем пытаться снова.';
+$txt['upgrade_respondtime_clickhere'] = 'Нажмите здесь, чтобы повторить попытку .';
 
 // Page titles
 $txt['updating_smf_installation'] = 'Обновление вашей установки SMF!';
