@@ -617,7 +617,7 @@ $txt['quickmod_confirm'] = 'Уверены?';
 $txt['spell_check'] = 'Проверка орфографии';
 
 $txt['quick_reply'] = 'Быстрый ответ';
-$txt['quick_reply_desc'] = 'В <em>быстром ответе</em> можно использовать ББ-теги и смайлы.';
+$txt['quick_reply_desc'] = 'В <em>быстром ответе</em> можно использовать ББ-теги и смайлики.';
 $txt['quick_reply_warning'] = 'Внимание: тема заблокирована! Ответить в ней может только модератор или администратор форума.';
 $txt['quick_reply_verification'] = 'После отправки сообщения произойдёт перенаправление на страницу полного ответа, чтобы подтвердить его %1$s.';
 $txt['quick_reply_verification_guests'] = '(требуется для всех гостей)';
@@ -707,8 +707,8 @@ $txt['response_prefix'] = 'Re: ';
 $txt['current_icon'] = 'Иконка';
 $txt['message_icon'] = 'Иконка сообщения';
 
-$txt['smileys_current'] = 'Текущий набор смайлов';
-$txt['smileys_none'] = 'Нет смайлов';
+$txt['smileys_current'] = 'Текущий набор смайликов';
+$txt['smileys_none'] = 'Нет смайликов';
 $txt['smileys_forum_board_default'] = 'Форум/Раздел по умолчанию';
 
 $txt['search_results'] = 'Результаты поиска';

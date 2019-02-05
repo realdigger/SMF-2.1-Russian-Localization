@@ -190,7 +190,7 @@ $txt['package_db_uninstall_details'] = 'Детали';
 $txt['package_db_uninstall_actions'] = 'Выбор данной возможности приведет к следующим изменениям базы данных';
 $txt['package_db_remove_table'] = 'Удаление таблицы «%1$s»';
 $txt['package_db_remove_column'] = 'Удаление столбца «%2$s» из «%1$s»';
-$txt['package_db_remove_index'] = 'Удаление индекса «%1$s» из «%2$s»';
+$txt['package_db_remove_index'] = 'Удаление индекса «%2$s» из «%1$s»';
 
 $txt['package_advanced_button'] = 'Эмуляция версий';
 $txt['package_advanced_options'] = 'Расширенные настройки';

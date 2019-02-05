@@ -1,5 +1,6 @@
 <?php
 // Version: 2.1 RC1; Editor
+
 global $editortxt;
 
 $editortxt['bold'] = 'Жирный';
@@ -44,7 +45,7 @@ $editortxt['insert_link'] = 'Вставить ссылку';
 $editortxt['unlink'] = 'Убрать сылку';
 $editortxt['more'] = 'Ещё';
 $editortxt['close'] = 'Закрыть';
-$editortxt['insert_smiley'] = 'Вставить смайл';
+$editortxt['insert_smiley'] = 'Вставить смайлик';
 $editortxt['video_url'] = 'Ссылка на видео:';
 $editortxt['insert'] = 'Вставить ';
 $editortxt['insert_youtube_video'] = 'Вставить видео с YouTube';

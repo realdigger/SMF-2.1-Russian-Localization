@@ -30,8 +30,8 @@ $txt['scheduled_task_weekly_maintenance'] = 'Еженедельное обслу
 $txt['scheduled_task_desc_weekly_maintenance'] = 'Запуск еженедельного обслуживания форума — не отключайте.';
 $txt['scheduled_task_paid_subscriptions'] = 'Проверка платной подписки';
 $txt['scheduled_task_desc_paid_subscriptions'] = 'Отправка уведомлений о платных подписках и удаление истекших подписок.';
-$txt['scheduled_task_remove_topic_redirect'] = 'Удаление тем-уведомлений "ПЕРЕНЕСЕНО:"';
-$txt['scheduled_task_desc_remove_topic_redirect'] = 'Удаляет темы-уведомления "ПЕРЕНЕСЕНО:", создаваемые при переносе тем.';
+$txt['scheduled_task_remove_topic_redirect'] = 'Удаление тем-уведомлений «ПЕРЕНЕСЕНО:»';
+$txt['scheduled_task_desc_remove_topic_redirect'] = 'Удаляет темы-уведомления «ПЕРЕНЕСЕНО:», создаваемые при переносе тем.';
 $txt['scheduled_task_remove_temp_attachments'] = 'Удаление временных файлов вложений';
 $txt['scheduled_task_desc_remove_temp_attachments'] = 'Удаляет временные файлы, созданные во время вложения в сообщения, которые, по какой-то причине, не были переименованы или удалены ранее.';
 

@@ -10,8 +10,8 @@ $txt['message_body_not_filled'] = 'Поле сообщения было оста
 // Use numeric entities in the below string.
 $txt['add_bbc'] = 'Добавить ББ-код';
 
-$txt['disable_smileys'] = 'Отключить смайлы';
-$txt['dont_use_smileys'] = 'Не использовать смайлы.';
+$txt['disable_smileys'] = 'Отключить смайлики';
+$txt['dont_use_smileys'] = 'Не использовать смайлики.';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_on'] = 'Отправлено';
 $txt['standard'] = 'Стандартная';
@@ -21,7 +21,7 @@ $txt['exclamation_point'] = 'Обратите внимание';
 $txt['question_mark'] = 'Вопрос';
 $txt['icon_poll'] = 'Опрос';
 $txt['lamp'] = 'Лампа';
-$txt['add_smileys'] = 'Добавить смайлы';
+$txt['add_smileys'] = 'Добавить смайлики';
 $txt['topic_notify_no'] = 'Нет тем с уведомлениями';
 // post_too_long seems unused (duplicate in Errors: error_post_too_long
 $txt['post_too_long'] = 'Ваше сообщение слишком длинное, пожалуйста, сделайте его короче и попробуйте снова.';
@@ -120,9 +120,9 @@ $txt['more_attachments'] = 'Добавить ещё';
 // Don't use entities in the below string.
 $txt['more_attachments_error'] = 'Извините, вы больше не можете добавлять вложения.';
 
-$txt['more_smileys'] = 'дополнительные смайлы';
-$txt['more_smileys_title'] = 'Дополнительные смайлы';
-$txt['more_smileys_pick'] = 'Дополнительные смайлы';
+$txt['more_smileys'] = 'дополнительные смайлики';
+$txt['more_smileys_title'] = 'Дополнительные смайлики';
+$txt['more_smileys_pick'] = 'Дополнительные смайлики';
 $txt['more_smileys_close_window'] = 'Закрыть окно';
 
 $txt['error_new_reply'] = 'Внимание! Пока вы набирали сообщение, в теме появился новый ответ. Возможно, вы захотите изменить свое сообщение.';
