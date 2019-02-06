@@ -48,11 +48,11 @@ $txt['paid_currency_symbol'] = 'Символьное обозначение';
 $txt['paid_currency_symbol_desc'] = 'Используйте запись вида \'%1.2f\', чтобы указать расположение чисел перед символами валюты. Например, $%1.2f, %1.2fDM&nbsp;и&nbsp;т.&nbsp;д.';
 $txt['paid_settings_save'] = 'Сохранить';
 
-$txt['paypal_email'] = 'E-mail адрес PayPal';
+$txt['paypal_email'] = 'Электронный адрес PayPal';
 $txt['paypal_email_desc'] = 'Оставьте пустым, если не хотите использовать PayPal.';
 $txt['paypal_additional_emails'] = 'Основной электронный адрес для PayPal';
 $txt['paypal_additional_emails_desc'] = 'Если другой (для бизнес аккаунта) ';
-$txt['paypal_sandbox_email'] = 'E-mail адрес песочницы PayPal';
+$txt['paypal_sandbox_email'] = 'Электронный адрес песочницы PayPal';
 $txt['paypal_sandbox_email_desc'] = 'Оставьте пустым, если не используете PayPal или не требуется тестовый режим.';
 
 $txt['paid_note'] = '<strong class="alert">Примечание:</strong><br>

@@ -146,9 +146,9 @@ $txt['user_settings_password'] = 'Пароль';
 $txt['user_settings_password_info'] = 'Введите пароль и запомните его!';
 $txt['user_settings_again'] = 'Подтвердите пароль';
 $txt['user_settings_again_info'] = '(подтверждение пароля)';
-$txt['user_settings_admin_email'] = 'E-mail адрес администратора';
+$txt['user_settings_admin_email'] = 'Электронный адрес администратора';
 $txt['user_settings_admin_email_info'] = 'Укажите ваш электронный адрес. Это должен быть действительный адрес!';
-$txt['user_settings_server_email'] = 'E-mail веб-мастера';
+$txt['user_settings_server_email'] = 'Электронный адрес веб-мастера';
 $txt['user_settings_server_email_info'] = 'Укажите <strong>электронный адрес для уведомлений</strong>. Это должен быть действительный адрес!';
 $txt['user_settings_database'] = 'Пароль к базе данных';
 $txt['user_settings_database_info'] = 'В целях безопасности, для создания учётной записи администратора, требуется ввести пароль к базе данных.';
@@ -230,9 +230,9 @@ $txt['ftp_connect'] = 'Подключиться';
 
 $txt['force_ssl'] = 'Включить SSL';
 $txt['force_ssl_label'] = 'Принудительный SSL на всем форуме';
-$txt['force_ssl_info'] = 'Убедитесь, что SSL and HTTPS поддерживаются везде на форуме, иначе он может стать недоступен';
+$txt['force_ssl_info'] = 'Убедитесь, что SSL и HTTPS поддерживаются вашим сервером, иначе форум может стать недоступен';
 
-$txt['chmod_linux_info'] = 'Если у вас есть доступ к консоли ssh, выполнение указанной ниже команды автоматически исправит права доступа для этих файлов.';
+$txt['chmod_linux_info'] = 'Если у вас есть доступ к консоли SSH, выполнение указанной ниже команды автоматически исправит права доступа для этих файлов';
 
 // The upgrader needs text strings too!
 $txt['upgrade_step_login'] = 'Вход';

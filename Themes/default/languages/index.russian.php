@@ -907,6 +907,9 @@ $txt['mobile_user_menu'] = 'Меню навигации для мобильны�
 // 	{series} = concatenated string of the rest of the items in the list
 $txt['sentence_list_format'][1] = '{1}';
 $txt['sentence_list_format'][2] = '{1} и {-1}';
+$txt['sentence_list_format'][3] = '{series} и {-1}';
+$txt['sentence_list_format'][4] = '{series} и {-1}';
+$txt['sentence_list_format'][5] = '{series} и {-1}';
 $txt['sentence_list_format']['n'] = '{series} и {-1}';
 // Separators used to build lists in a sentence
 $txt['sentence_list_separator'] = ', ';
